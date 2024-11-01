@@ -788,6 +788,14 @@ video {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
 .pl-5 {
   padding-left: 1.25rem;
 }
@@ -965,6 +973,27 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+}
+@media (min-width: 1024px) {
+
+  .lg\:px-56 {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+}
+@media (min-width: 1280px) {
+
+  .xl\:px-56 {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+}
+@media (min-width: 1536px) {
+
+  .\32xl\:px-56 {
+    padding-left: 14rem;
+    padding-right: 14rem;
   }
 }
 

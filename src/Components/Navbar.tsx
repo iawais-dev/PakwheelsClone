@@ -6,7 +6,7 @@ import mobile from '@/assets/imgs/mobile.png'
 
 function Navbar() {
     return (
-        <nav className='bg-black text-white text-[14px] flex flex-col px-56 overflow-hidden'>
+        <nav className='bg-black text-white text-[14px] flex flex-col px-14 3xl:px-56 overflow-hidden'>
             <div className='flex justify-between py-3'>
                 <div className='flex gap-2'>
                 <Image src={mobile} alt='mobile' className='h-5 w-auto' />
